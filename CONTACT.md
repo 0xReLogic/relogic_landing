@@ -31,4 +31,4 @@ Interested in contributing to this project?
 
 ---
 
-**💡 Open to opportunities and collaborations!**
+**💡 Open to opportunities and collaborations!***
