@@ -6,7 +6,7 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## 🌟 **Live Demo**
-**[👉 View Live Demo](https://0xrelogic.github.io/relogic-landing/)**
+**[👉 View Live Demo](https://www.0xrelogic.my.id/)**
 
 > Modern, responsive landing page dengan advanced features untuk contact management tool
 
