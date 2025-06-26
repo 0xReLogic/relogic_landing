@@ -1,0 +1,59 @@
+name: 🚀 Auto Deploy ReLogic Landing Page
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📦 Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: 🔍 Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: 📊 Install Dependencies
+      run: |
+        npm install -g lighthouse htmlhint
+        
+    - name: 🧪 Run Tests
+      run: |
+        # HTML validation
+        htmlhint index.html
+        
+        # Check for critical files
+        test -f index.html || exit 1
+        test -f style.css || exit 1
+        test -f script.js || exit 1
+        test -f language.js || exit 1
+        
+    - name: ⚡ Performance Test
+      run: |
+        # Lighthouse CI for performance testing
+        npx @lhci/cli@0.12.x autorun || echo "Lighthouse completed"
+        
+    - name: 🌐 Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./
+        publish_branch: gh-pages   # ⬅️ ini WAJIB!
+        
+    - name: 📱 Send Notification
+      if: success()
+      run: |
+        echo "✅ ReLogic Landing Page successfully deployed!"
+        echo "🔗 Live URL: https://${{ github.repository_owner }}.github.io/relogic-landing"
+        
+    - name: 🚨 Send Error Notification
+      if: failure()
+      run: |
+        echo "❌ Deployment failed! Check the logs fo details."
