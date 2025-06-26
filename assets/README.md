@@ -5,7 +5,7 @@
 <!-- For now, we'll use Font Awesome icons in the HTML instead of image files -->
 <!-- This approach is more efficient for icons and maintains consistency -->
 
-<!-- If you need to add actual image assets later, place them in this directory: -->
+<!-- If you needto add actual image assets later, place them in this directory: -->
 <!-- 
   assets/
   ├── favicon.ico
