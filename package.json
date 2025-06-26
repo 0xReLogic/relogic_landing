@@ -1,0 +1,39 @@
+{
+  "name": "relogic-landing",
+  "version": "1.0.0",
+  "description": "Modern landing page for ReLogic Contact Tool with auto-update capabilities",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "watch": "node auto-watch.js",
+    "update": "node auto-update.js",
+    "deploy": "npm run build && gh-pages -d .",
+    "test": "htmlhint index.html && echo 'All tests passed!'",
+    "lighthouse": "lighthouse http://localhost:8000 --output html --output-path ./lighthouse-report.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xReLogic/relogic-landing.git"
+  },
+  "keywords": [
+    "landing-page",
+    "responsive-design",
+    "dark-theme",
+    "multi-language",
+    "accessibility",
+    "performance",
+    "portfolio"
+  ],
+  "author": "0xReLogic <hi@0xrelogic.my.id>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0xReLogic/relogic-landing/issues"
+  },
+  "homepage": "https://0xrelogic.github.io/relogic-landing",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "lighthouse": "^11.4.0",
+    "serve": "^14.2.1"
+  }
+}
