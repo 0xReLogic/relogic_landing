@@ -203,7 +203,7 @@ relogic-landing/
 - **Language Switches** tracking
 - **Performance Metrics** monitoring
 
-📜 **Changelog**: [View Full Changelog](./CHANGELOG.md)
+## 📜 **Changelog**: [View Full Changelog](./CHANGELOG.md)
 
 ## 🤝 **Contributing**
 
