@@ -137,7 +137,7 @@ relogic-landing/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/relogic-landing.git
+   git clone https://github.com/0xrelogic/relogic-landing.git
    cd relogic-landing
    ```
 
