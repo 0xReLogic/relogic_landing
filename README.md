@@ -203,6 +203,8 @@ relogic-landing/
 - **Language Switches** tracking
 - **Performance Metrics** monitoring
 
+📜 **Changelog**: [View Full Changelog](./CHANGELOG.md)
+
 ## 🤝 **Contributing**
 
 1. Fork the repository
