@@ -42,9 +42,6 @@
 - **Performance:** Critical CSS, Font Preloading, GPU Acceleration
 - **Accessibility:** ARIA labels, Semantic HTML, Focus management
 
-## 📱 **Preview**
-![Preview](https://via.placeholder.com/800x400/6366f1/ffffff?text=ReLogic+Preview)
-
 ## 🚀 **Quick Start**
 ```bash
 # Clone repository
@@ -220,7 +217,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 **Author**
 
-**Your Name**
+**0xReLogic**
 - GitHub: @0xReLogic https://github.com/0xReLogic
 - Email: hi@0xrelogic.my.id
 
