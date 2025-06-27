@@ -145,7 +145,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **🔗 Repository:** [https://github.com/0xReLogic/relogic-landing](https://github.com/0xReLogic/relogic-landing)
 
-**🌐 Live Demo:** [https://0xrelogic.github.io/relogic-landing](https://0xrelogic.github.io/relogic-landing)
+**🌐 Live Demo:** [https://www.0xrelogic.my.id/](https://www.0xrelogic.my.id/)
 
 **👨‍💻 Author:** 0xReLogic  
 **📧 Email:** hi@0xrelogic.my.id  
